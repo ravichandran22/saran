@@ -1,0 +1,29 @@
+.text {
+    color: white;
+  }
+  .text-hover {
+    transition: all ease-in-out 1.5s;
+  }
+  .svg-wrap {
+    width: 300px;
+    height: 70px;
+    
+  }
+  .box {
+    stroke-dasharray: 45 800;
+    stroke-dashoffset: -670;
+    stroke: #ff0000;
+    stroke-width: 10px;
+    transition: all ease-in-out 1.5s;
+  }
+  
+  .svg-wrap:hover .box {
+    stroke-dashoffset: 0;
+    stroke-dasharray: 1000;
+    stroke-width: 7px;
+    stroke: #00faac;
+  }
+  .svg-wrap:hover .text-hover {
+    margin-left: 15px;
+  }
+  
